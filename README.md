@@ -19,7 +19,7 @@ The results are generated using shell scripts (`bash`) that wrap code from `R` s
 The `root` folder contains the following sub-folders:
 
 - `src`: A folder that contains the core code files.
-- `data`: An empty folder. Please put all the data files in this folder. 
+- `data`: This folder contains all the relevant data files to reproduce the results in the paper. The code will automatically read the appropriate dataset for each bash script as long as the name and location of the files are not changed. See [Datasets](#datasets) section for details about the files.
 - `artifacts`: This folder will store all the model objects during execution and use them generate results.
 - `results`: All the results from the paper will be stored in this folder.
 - `log`: This folder will contain all the runtime log. If you get any error while running the code, please check the relevant logs in this folder.
